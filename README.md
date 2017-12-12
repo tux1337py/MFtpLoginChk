@@ -12,7 +12,7 @@ pip install pyfiglet
 pip install socket
 
 # USO:
-python FTPanonyLogin.py anonymous anonymous
+python FTPanonyLogin.py ips.txt anonymous anonymous
 
 
 # Video

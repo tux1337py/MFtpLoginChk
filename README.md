@@ -1,4 +1,4 @@
-# Mass check FTP login anonymous [PYTHON]
+# Mass check FTP login anonymous [PYTHON 2]
 
 
 # Bibliotecas:

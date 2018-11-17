@@ -9,13 +9,13 @@ from termcolor import cprint
 from pyfiglet import figlet_format
 
 if len(sys.argv) <= 2:
-	print("\n USO: python ftpdefaul.py ips.txt anonymous anonymous\n")
+	print("\n USO: python "+sys.argv[0]+" ips.txt anonymous anonymous\n")
 	sys.exit(0)
 else:
-	cprint(figlet_format('Tux_1337', font='starwars'),
+	cprint(figlet_format('Tux_1337Py', font='starwars'),
 	'yellow','on_blue', attrs=['bold'])
 	b = '''	[+][+][+][+][+][+][+][+][+][+][+]
-	[+]   CODED by: Tux_1337      [+]
+	[+]   CODED by: Tux_1337Py      [+]
 	[+]   TELEGRAM: @C4P40        [+]
 	[+]      \{+_+}/              [+]
 	[+][+][+][+][+][+][+][+][+][+][+]\n\n'''
